@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 
 public class Prime {
+
+	//Compilation error!
 		
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

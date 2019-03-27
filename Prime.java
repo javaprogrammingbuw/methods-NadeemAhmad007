@@ -3,14 +3,13 @@ import java.util.Scanner;
 
 public class Prime {
 
-	//Compilation error!
 		
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter a number ");
 		int k =scan.nextInt();
 		System.out.println("The number is prime: "+ isPrime( k));
-		int doubletteFirst = getPrimeDoublette(n);
+		int doubletteFirst = getPrimeDoublette(k);
 		System.out.println("The first doublette after "+k+" is: ("+doubletteFirst+", "+(doubletteFirst+2)+")" );
 		
 	//todo: write a method isPrime which tells you if a given number is a prime or not
@@ -44,5 +43,4 @@ public class Prime {
 			}
 		}
 	}
-}
 }
